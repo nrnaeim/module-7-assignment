@@ -40,7 +40,7 @@ const isNegative = (num) => {
   return num < 0 ? "Negative" : num > 0 ? "Positive" : "Your number is zero";
 };
 
-console.log(isNegative(0));
+console.log(isNegative(5));
 
 //Leap year check
 const isLeapYear = (year) => {
@@ -74,4 +74,4 @@ console.log(concateString("Hello", "World"));
 const isInclude = (str) => {
   return str.includes("Hello");
 };
-console.log(isInclude("Hello World"));
+console.log(`Is include? ${isInclude("Hello World")}`);
