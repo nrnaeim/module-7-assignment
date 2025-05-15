@@ -49,3 +49,29 @@ const isLeapYear = (year) => {
     : "Not leap year";
 };
 console.log(isLeapYear(2000));
+
+//multiplication of two number
+const multiplication = (num1, num2) => {
+  if (typeof num1 !== "number") return "Number one is  NaN";
+  if (typeof num2 !== "number") return "Number two is  NaN";
+
+  return num1 * num2;
+};
+console.log(multiplication(3, 5));
+
+//convert minute(s) in second
+const inSeconds = (minutes) => {
+  if (typeof minutes !== "number") return "Please provide a number";
+  return minutes * 60;
+};
+console.log(inSeconds(4));
+
+const concateString = (str1, str2) => {
+  return str1 + " " + str2;
+};
+console.log(concateString("Hello", "World"));
+
+const isInclude = (str) => {
+  return str.includes("Hello");
+};
+console.log(isInclude("Hello World"));
