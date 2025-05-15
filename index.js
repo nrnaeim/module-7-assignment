@@ -1,7 +1,7 @@
 //Sum of two number
 const sumOfTwoNumbers = (num1, num2) => {
-  if (typeof num1 !== "number") return "Number one is one NaN";
-  if (typeof num2 !== "number") return "Number two is one NaN";
+  if (typeof num1 !== "number") return "Number one is  NaN";
+  if (typeof num2 !== "number") return "Number two is  NaN";
 
   return num1 + num2;
 };
